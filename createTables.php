@@ -7,6 +7,10 @@ error_reporting(-1);
 ini_set('display_errors',1);
 
 $conn= OCILogon("ora_j7g0b", "a37945136", "ug");
+    if (!conn){
+    $m = oci_error();
+    exit ('Connection error' . $m[message]);
+    }
 
 $listOfStartingCommands = [
     "drop table PostalCodeLocn CASCADE CONSTRAINTS",
