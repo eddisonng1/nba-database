@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1155001521">
+  <component name="DataSourceManagerImpl" format="xml" hash="480668532">
     <data-source source="LOCAL" name="Oracle - @localhost" uuid="6f54a206-a5e5-4650-be23-2b6613c8d983">
       <driver-ref>oracle</driver-ref>
       <configured-by-url>true</configured-by-url>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@localhost:1522:ug</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="SQL Server (Microsoft) - jdbc:oracle:thin:@localhost:1522:ug" uuid="674666ac-aa69-44f4-b4b6-9d73607f2776">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@localhost:1522:ug</jdbc-url>
+      <explain-plan-config>
+        <provider>com.intellij.database.plan.mssql.MssqlExplainPlanProvider</provider>
+      </explain-plan-config>
+    </data-source>
+    <data-source source="LOCAL" name="Derby (Remote) - jdbc:derby://localhost:1527/" uuid="1a263733-92b8-40aa-91ec-2810ccdac080">
+      <driver-ref>derby.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby://localhost:1527/</jdbc-url>
     </data-source>
   </component>
 </project>

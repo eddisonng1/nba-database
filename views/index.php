@@ -20,7 +20,7 @@
         <ul class="nav navbar-nav">
             <li><a href="#">Home </a></li>
             <li><a href="#">Players</a></li>
-            <li><a href="#">Coaches</a></li>
+            <li><a href="coach.php">Coaches</a></li>
             <li><a href="#">Teams</a></li>
             <li><a href="#">Seasons</a></li>
         </ul>
