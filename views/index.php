@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -19,14 +17,22 @@
         </div>
         <ul class="nav navbar-nav">
             <li><a href="#">Home </a></li>
-            <li><a href="#">Players</a></li>
+            <li><a href="players.php">Players</a></li>
             <li><a href="coach.php">Coaches</a></li>
-            <li><a href="#">Teams</a></li>
-            <li><a href="#">Seasons</a></li>
+            <li><a href="teams.php">Teams</a></li>
+            <li><a href="season.php">Seasons</a></li>
+            <li><a href="games.php">Games</a></li>
         </ul>
     </div>
 </nav>
 
+<?php
+error_reporting(-1);
+ini_set('display_errors',1);
 
-</body>
-</html>
+$conn = OCILogon("ora_j7g0b", "a37945136", "ug");
+?>
+?>
+
+<br>
+<br>

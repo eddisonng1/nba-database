@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bb3d809-6f50-4c38-901a-29c670b686f8" name="Default" comment="Games and Seasons Done Boys">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/nba-databaseNew.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/coach.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/coaches.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/games.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/season.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="1bb3d809-6f50-4c38-901a-29c670b686f8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/teams.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/coach.php" afterPath="$PROJECT_DIR$/views/coach.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/coaches.php" afterPath="$PROJECT_DIR$/views/coaches.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/games.php" afterPath="$PROJECT_DIR$/views/games.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.php" afterPath="$PROJECT_DIR$/views/players.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/season.php" afterPath="$PROJECT_DIR$/views/season.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +55,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="GAME" />
+        <option name="myItemId" value="TEAM" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -71,7 +69,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="COACHES" />
+        <option name="myItemId" value="GAME" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -99,12 +97,46 @@
       <file leaf-file-name="season.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/season.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <marker date="1458764619000" expanded="true" signature="1586:1606" placeholder="SELECT * FRO... SEASON" />
-                <marker date="1458764619000" expanded="true" signature="1718:1729" placeholder="..." />
+                <marker date="1458861957000" expanded="true" signature="144:164" placeholder="SELECT * FRO... SEASON" />
+                <marker date="1458861957000" expanded="true" signature="276:287" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="players.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/players.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teams.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/teams.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <marker date="1458861957000" expanded="true" signature="178:196" placeholder="SELECT * FRO... GAME" />
+                <marker date="1458861957000" expanded="true" signature="178:233" placeholder="SELECT * FRO... GAME" />
+                <marker date="1458861957000" expanded="true" signature="321:332" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,28 +144,15 @@
       <file leaf-file-name="games.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/games.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="420">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <marker date="1458764619000" expanded="true" signature="2154:2184" placeholder="SELECT * FRO... GAME" />
-                <marker date="1458764619000" expanded="true" signature="2154:2189" placeholder="SELECT * FRO... GAME" />
-                <marker date="1458764619000" expanded="true" signature="2154:2191" placeholder="SELECT * FRO... GAME" />
-                <marker date="1458764619000" expanded="true" signature="2325:2336" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coaches.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/coaches.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding>
-                <marker date="1458764619000" expanded="true" signature="1659:1694" placeholder="SELECT * FRO... COACH" />
-                <marker date="1458764619000" expanded="true" signature="2178:2218" placeholder="SELECT * FRO... COACHES" />
-                <marker date="1458764619000" expanded="true" signature="2178:2219" placeholder="SELECT * FRO... COACHES" />
-                <marker date="1458764619000" expanded="true" signature="2354:2365" placeholder="..." />
+                <marker date="1458861957000" expanded="true" signature="648:678" placeholder="SELECT * FRO... GAME" />
+                <marker date="1458861957000" expanded="true" signature="648:683" placeholder="SELECT * FRO... GAME" />
+                <marker date="1458861957000" expanded="true" signature="648:685" placeholder="SELECT * FRO... GAME" />
+                <marker date="1458861957000" expanded="true" signature="791:827" placeholder="DELETE FROM " />
+                <marker date="1458861957000" expanded="true" signature="1014:1025" placeholder="..." />
+                <marker date="1458861957000" expanded="true" signature="1800:1937" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -142,11 +161,26 @@
       <file leaf-file-name="coach.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/coach.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
-                <marker date="1458764619000" expanded="true" signature="1613:1632" placeholder="SELECT * FRO... COACH" />
-                <marker date="1458764619000" expanded="true" signature="1756:1767" placeholder="..." />
+                <marker date="1458861957000" expanded="true" signature="104:123" placeholder="SELECT * FRO... COACH" />
+                <marker date="1458861957000" expanded="true" signature="247:258" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coaches.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/coaches.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <marker date="1458861957000" expanded="true" signature="258:293" placeholder="SELECT * FRO... COACH" />
+                <marker date="1458861957000" expanded="true" signature="723:812" placeholder="SELECT * FRO... COACHES" />
+                <marker date="1458861957000" expanded="true" signature="723:813" placeholder="SELECT * FRO... COACHES" />
+                <marker date="1458861957000" expanded="true" signature="948:959" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -160,11 +194,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/index.php" />
-        <option value="$PROJECT_DIR$/views/coach.php" />
-        <option value="$PROJECT_DIR$/views/coaches.php" />
         <option value="$PROJECT_DIR$/views/games.php" />
+        <option value="$PROJECT_DIR$/views/coach.php" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/views/coaches.php" />
+        <option value="$PROJECT_DIR$/views/teams.php" />
         <option value="$PROJECT_DIR$/views/season.php" />
+        <option value="$PROJECT_DIR$/views/players.php" />
       </list>
     </option>
   </component>
@@ -179,7 +215,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1230" />
+    <option name="width" value="1280" />
     <option name="height" value="680" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -208,6 +244,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,9 +277,22 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nba-databaseNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nba-databaseNew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,21 +346,30 @@
       <option name="presentableId" value="Default" />
       <updated>1458755013229</updated>
       <workItem from="1458755014328" duration="7275000" />
-      <workItem from="1458772277883" duration="16000" />
+      <workItem from="1458772277883" duration="59000" />
+      <workItem from="1458856772452" duration="3863000" />
     </task>
+    <task id="LOCAL-00001" summary="Coaches / Coach">
+      <created>1458772316811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1458772316811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7291000" />
+    <option name="totallyTimeSpent" value="11197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1230" height="680" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="680" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253367" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20117845" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10096931" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -360,7 +419,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Games and Seasons Done Boys" />
-    <option name="LAST_COMMIT_MESSAGE" value="Games and Seasons Done Boys" />
+    <MESSAGE value="Coaches / Coach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coaches / Coach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -372,8 +432,8 @@
         <state relative-caret-position="270">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <marker date="1458764619000" expanded="true" signature="1586:1606" placeholder="SELECT * FRO... SEASON" />
-            <marker date="1458764619000" expanded="true" signature="1718:1729" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="144:164" placeholder="SELECT * FRO... SEASON" />
+            <marker date="1458861957000" expanded="true" signature="276:287" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -383,10 +443,62 @@
         <state relative-caret-position="390">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
-            <marker date="1458764619000" expanded="true" signature="2154:2184" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458764619000" expanded="true" signature="2154:2189" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458764619000" expanded="true" signature="2154:2191" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458764619000" expanded="true" signature="2325:2336" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="648:678" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="648:683" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="648:685" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="791:827" placeholder="DELETE FROM " />
+            <marker date="1458861957000" expanded="true" signature="1014:1025" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="1800:1937" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/coaches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458861957000" expanded="true" signature="258:293" placeholder="SELECT * FRO... COACH" />
+            <marker date="1458861957000" expanded="true" signature="723:812" placeholder="SELECT * FRO... COACHES" />
+            <marker date="1458861957000" expanded="true" signature="723:813" placeholder="SELECT * FRO... COACHES" />
+            <marker date="1458861957000" expanded="true" signature="948:959" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/coach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <marker date="1458861957000" expanded="true" signature="104:123" placeholder="SELECT * FRO... COACH" />
+            <marker date="1458861957000" expanded="true" signature="247:258" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/season.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <marker date="1458861957000" expanded="true" signature="144:164" placeholder="SELECT * FRO... SEASON" />
+            <marker date="1458861957000" expanded="true" signature="276:287" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/games.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <marker date="1458861957000" expanded="true" signature="648:678" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="648:683" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="648:685" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="791:827" placeholder="DELETE FROM " />
+            <marker date="1458861957000" expanded="true" signature="1014:1025" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="1800:1937" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -396,10 +508,10 @@
         <state relative-caret-position="390">
           <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
-            <marker date="1458764619000" expanded="true" signature="1659:1694" placeholder="SELECT * FRO... COACH" />
-            <marker date="1458764619000" expanded="true" signature="2178:2218" placeholder="SELECT * FRO... COACHES" />
-            <marker date="1458764619000" expanded="true" signature="2178:2219" placeholder="SELECT * FRO... COACHES" />
-            <marker date="1458764619000" expanded="true" signature="2354:2365" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="258:293" placeholder="SELECT * FRO... COACH" />
+            <marker date="1458861957000" expanded="true" signature="723:812" placeholder="SELECT * FRO... COACHES" />
+            <marker date="1458861957000" expanded="true" signature="723:813" placeholder="SELECT * FRO... COACHES" />
+            <marker date="1458861957000" expanded="true" signature="948:959" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -409,8 +521,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458764619000" expanded="true" signature="1613:1632" placeholder="SELECT * FRO... COACH" />
-            <marker date="1458764619000" expanded="true" signature="1756:1767" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="104:123" placeholder="SELECT * FRO... COACH" />
+            <marker date="1458861957000" expanded="true" signature="247:258" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -422,89 +534,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createTables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2717">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/ea5ebb7f/6f54a206-a5e5-4650-be23-2b6613c8d983/ORA_J7G0B.GAME">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/ea5ebb7f/6f54a206-a5e5-4650-be23-2b6613c8d983/ORA_J7G0B.SEASON">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.php">
+    <entry file="file://$PROJECT_DIR$/createTables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="15">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/coaches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <marker date="1458861957000" expanded="true" signature="258:293" placeholder="SELECT * FRO... COACH" />
+            <marker date="1458861957000" expanded="true" signature="723:812" placeholder="SELECT * FRO... COACHES" />
+            <marker date="1458861957000" expanded="true" signature="723:813" placeholder="SELECT * FRO... COACHES" />
+            <marker date="1458861957000" expanded="true" signature="948:959" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/coach.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <marker date="1458764619000" expanded="true" signature="1613:1632" placeholder="SELECT * FRO... COACH" />
-            <marker date="1458764619000" expanded="true" signature="1756:1767" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/season.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <marker date="1458764619000" expanded="true" signature="1586:1606" placeholder="SELECT * FRO... SEASON" />
-            <marker date="1458764619000" expanded="true" signature="1718:1729" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="104:123" placeholder="SELECT * FRO... COACH" />
+            <marker date="1458861957000" expanded="true" signature="247:258" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/games.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <marker date="1458764619000" expanded="true" signature="2154:2184" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458764619000" expanded="true" signature="2154:2189" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458764619000" expanded="true" signature="2154:2191" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458764619000" expanded="true" signature="2325:2336" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="648:678" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="648:683" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="648:685" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="791:827" placeholder="DELETE FROM " />
+            <marker date="1458861957000" expanded="true" signature="1014:1025" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="1800:1937" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/coaches.php">
+    <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <marker date="1458764619000" expanded="true" signature="1659:1694" placeholder="SELECT * FRO... COACH" />
-            <marker date="1458764619000" expanded="true" signature="2178:2218" placeholder="SELECT * FRO... COACHES" />
-            <marker date="1458764619000" expanded="true" signature="2178:2219" placeholder="SELECT * FRO... COACHES" />
-            <marker date="1458764619000" expanded="true" signature="2354:2365" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="178:196" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="178:233" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="321:332" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/season.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1458861957000" expanded="true" signature="144:164" placeholder="SELECT * FRO... SEASON" />
+            <marker date="1458861957000" expanded="true" signature="276:287" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/players.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
