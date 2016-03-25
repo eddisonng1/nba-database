@@ -37,7 +37,7 @@ $listOfStartingCommands = [
         street char(150),
         postalCode char(10),
         primary key (street,postalCode),
-        foreign key(postalCode) references PostalCodeLocn(postalCode) ON DELETE CASCADE
+        foreign key(postalCode) references PostalCodeLocn(postalCode) 
 	)",
 
     "INSERT INTO Address VALUES('1234 Main Street', 'V6B 3B5')",
@@ -55,7 +55,7 @@ $listOfStartingCommands = [
     "drop table Player CASCADE CONSTRAINTS",
     "create table Player(
       playerId int,
-      height FLOAT ,
+      height int,
       weight int,
       numberOnBack int,
       fName CHAR(30),
@@ -93,7 +93,7 @@ $listOfStartingCommands = [
       postalCode CHAR (10) not null,
       street CHAR (150) not null,
       primary key(custId),
-      foreign key(postalCode, street) references Address(postalCode, street)
+      foreign key(postalCode, street) references Address(postalCode, street) 
       )",
 
     "INSERT INTO Spectator VALUES ('Richard', 'Wong', 1, 'V5R 3G7', '3675 East 45th Avenue')",
@@ -122,7 +122,7 @@ $listOfStartingCommands = [
       postalCode char (10) NOT NULL,
       street char (150) NOT NULL,
       primary key (arenaName),
-      foreign key (postalCode, street) REFERENCES Address (postalCode, street) 
+      foreign key (postalCode, street) REFERENCES Address (postalCode, street)
 	)",
 
 
@@ -167,7 +167,7 @@ $listOfStartingCommands = [
       salary int,
       PRIMARY KEY(playerId, teamName, toDate, fromDate),
       foreign key(PlayerId) REFERENCES Player(playerId), 
-      foreign key(teamName) REFERENCES Team(tName)
+      foreign key(teamName) REFERENCES Team(tName) 
 	)",
 
     "INSERT INTO PlaysFor VALUES (1, 'Vancouver Grizzlies', to_date('January 3, 1981', 'MONTH DD, YYYY'), to_date('April 27, 1996', 'MONTH DD, YYYY'), 500000)",
@@ -186,7 +186,7 @@ $listOfStartingCommands = [
       salary int,
       PRIMARY KEY(coachId, teamName, toDate, fromDate),
       foreign key (coachId) REFERENCES Coach(coachId),
-      foreign key(teamName) REFERENCES Team(tName)
+      foreign key(teamName) REFERENCES Team(tName) 
 	)",
 
     "INSERT INTO Coaches VALUES (1, 'Miami Heat', to_date('January 2, 1999', 'MONTH DD, YYYY'),to_date( 'November 5, 2001', 'MONTH DD, YYYY'), 750000)",
@@ -218,6 +218,7 @@ $listOfStartingCommands = [
     "INSERT INTO Game values (3, 'Los Angeles Lakers', 'Chicago Bulls', 'Staples Centre', 87, 70, to_date('November 5, 2013','MONTH DD, YYYY'), 2013)",
     "INSERT INTO Game values (4, 'San Antonio Spurs', 'Boston Celtics', 'TD Garden', 90, 88, to_date('February 27, 2012','MONTH DD, YYYY'),2011)",
     "INSERT INTO Game values (5, 'Cleveland Cavaliers', 'Vancouver Grizzlies', 'Rogers Arena', 100, 78, to_date('March 20, 2012','MONTH DD, YYYY'),2011)",
+    "INSERT INTO Game values (6, 'Los Angeles Lakers', 'Cleveland Cavaliers', 'Staples Centre', 130, 75, to_date('March 20 , 2016', 'MONTH DD, YYYY'), 2015)",
 
     "drop table Performed CASCADE CONSTRAINTS",
     "create table Performed(
@@ -230,11 +231,12 @@ $listOfStartingCommands = [
       turnover int,
       minutesPlayed int,
       PRIMARY KEY(gameId, playerId),
-      FOREIGN KEY(gameId) REFERENCES Game(gameId),
+      FOREIGN KEY(gameId) REFERENCES Game(gameId) ON DELETE CASCADE,
       FOREIGN KEY (playerId) REFERENCES Player(playerId)
 	)",
 
     "INSERT INTO Performed VALUES (1, 1, 20, 5, 1, 30, 1, 10)",
+    "INSERT INTO PERFORMED VALUES (6, 1, 40, 10, 2, 60, 2, 20)",
     "INSERT INTO Performed VALUES (1, 2, 24, 5, 2, 20, 2, 20)",
     "INSERT INTO Performed VALUES (2, 3, 25, 2, 0, 50, 1, 30)",
     "INSERT INTO Performed VALUES (3, 4, 50, 3, 1, 77, 3, 23)",
@@ -246,7 +248,7 @@ $listOfStartingCommands = [
       gameId int,
       primary key (custId,gameId),
       foreign key(custId) references Spectator(custId),
-      FOREIGN KEY(gameId) REFERENCES GAME(gameId)
+      FOREIGN KEY(gameId) REFERENCES GAME(gameId) ON DELETE CASCADE 
 	)",
 
     "INSERT into Watches VALUES (1, 1)",

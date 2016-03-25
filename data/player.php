@@ -2,17 +2,6 @@
 <html>
 <?php
 
-function connectToDB()
-{
-    $conn = OCILogon("ora_j7g0b", "a37945136", "ug");
-    if (!conn) {
-        $m = oci_error();
-        exit ('Connection error' . $m[message]);
-    }
-
-    return $conn;
-}
-
 function getAllPlayers($conn){
     $query = "SELECT * FROM player";
     $stid = oci_parse($conn, $query);
@@ -35,7 +24,7 @@ function getIndividualPlayer($conn, $playerID){
 
 function getStatsbyYear($conn, $playerID) {
     $query =
-        "SELECT g.YEAR, AVG(s.FGPERCENT)  
+        "SELECT g.YEAR, AVG(s.POINTS) AS POINTS, AVG(s.REBOUNDS) AS REBOUNDS, AVG(s.STEALS) AS STEALS, AVG(s.FGPERCENT) AS FGPERCENT, AVG(s.TURNOVER) AS TURNOVERS, AVG(s.MINUTESPLAYED) AS MINUTESPLAYED
         FROM PLAYER p, PERFORMED s, GAME g
         WHERE p.PLAYERID = $playerID AND p.PLAYERID = s.PLAYERID AND s.GAMEID = g.GAMEID
         GROUP BY g.YEAR";

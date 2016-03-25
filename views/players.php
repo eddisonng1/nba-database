@@ -40,7 +40,7 @@ while ($row = oci_fetch_array($stid)){
     echo "<td>" . htmlentities($row['LNAME']) . "</td>";
     echo "<td>" . htmlentities($row['POSITION']) . "</td>";
     echo "<td><form method=\"post\">
-                    <button class='btn btn-warning' name=\"update\" type=\"submit\" value=\"".$row['PLAYERID']."\" />Update</button></form>";
+                    <button class='btn btn-warning' name=\"update\" type=\"submit\" value=\"".$row."\" />Update</button></form>";
     echo "</td></tr>";
 
  }
@@ -69,19 +69,20 @@ oci_free_statement($stid);
 </thead>
 <tbody>
 <tr>
-    <td><input class='form-control' type='text'></td>
-    <td><input class='form-control' type='text'></td>
-    <td><input class='form-control' type='text'></td>
-    <td><input class='form-control' type='text'></td>
-    <td><input class='form-control' type='text'></td>
-    <td><input class='form-control' type='text'></td>
+    <td><input id='height' class='form-control' type='text'></td>
+    <td><input id='weight' class='form-control' type='text'></td>
+    <td><input id='number' class='form-control' type='text'></td>
+    <td><input id='fname' class='form-control' type='text'></td>
+    <td><input id='lname' class='form-control' type='text'></td>
+    <td><input id='position' class='form-control' type='text'></td>
     <td><button class='btn btn-success'>Update</button></td>
 </tr>
 </tbody>    
 </table>
-</div>
+</div>"
+            
 
-";
+            ;
 
         }
 
