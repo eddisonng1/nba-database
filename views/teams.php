@@ -24,7 +24,7 @@ require 'index.php';
         echo "<th>Inaugural Year</th>";
         echo"</thead>";
         while ($row = oci_fetch_array($res)){
-            echo "<tr><td>";
+            echo "<tr onclick=\"document.location = 'http://www.ugrad.cs.ubc.ca/~j7g0b/views/teamPage.php?".$row['TNAME']."'\"><td>";
             echo $row['TNAME']."</td><td>";
             echo $row['INAUGURALYEAR']."</td><td>";
             echo "</td></tr>\n";

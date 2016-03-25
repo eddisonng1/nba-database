@@ -1,15 +1,15 @@
-
 <?php
 require 'index.php';
 ?>
 
+<body>
 <div class="container">
     <h2>PLAYERS</h2>
+
     <div class="table-responsive">
-        <table class="table">
+        <table class="table table-hover">
             <thead>
     <tr>
-        <th> id </th>
         <th> Height </th>
         <th> Weight </th>
         <th> Number </th>
@@ -23,11 +23,15 @@ require 'index.php';
 
 
 <?php
-
+include "../data/player.php";
 $stid = getAllPlayers($conn);
 
 while ($row = oci_fetch_array($stid)){
-    echo "<tr><td>" . htmlentities ($row['PLAYERID']) . "</td>";
+
+    $playerID = $row['PLAYERID'];
+    $playerName = $row['FNAME'] .  $row['LNAME'];
+
+    echo "<tr onclick=\"document.location = 'http://www.ugrad.cs.ubc.ca/~j7g0b/views/playerPage.php?".$playerID."'\">";
     echo "<td>" . htmlentities($row['HEIGHT']) . "</td>";
     echo "<td>" . htmlentities($row['WEIGHT']) . "</td>";
     echo "<td>" . htmlentities($row['NUMBERONBACK']) . "</td>";
@@ -43,7 +47,6 @@ oci_free_statement($stid);
             </tbody>
             </table>
         </div>
-</div>
 </body>
 </html>
 
