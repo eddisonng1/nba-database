@@ -55,7 +55,7 @@ $listOfStartingCommands = [
     "drop table Player CASCADE CONSTRAINTS",
     "create table Player(
       playerId int,
-      height int,
+      height FLOAT ,
       weight int,
       numberOnBack int,
       fName CHAR(30),

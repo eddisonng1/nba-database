@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bb3d809-6f50-4c38-901a-29c670b686f8" name="Default" comment="UPDATE">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/teamPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="1bb3d809-6f50-4c38-901a-29c670b686f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createTables.php" afterPath="$PROJECT_DIR$/createTables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/player.php" afterPath="$PROJECT_DIR$/data/player.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.php" afterPath="$PROJECT_DIR$/views/players.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/teams.php" afterPath="$PROJECT_DIR$/views/teams.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,42 +90,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="teamPage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/teamPage.php">
+      <file leaf-file-name="players.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/players.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="206">
+              <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
               <folding>
-                <marker date="1458867609000" expanded="true" signature="258:295" placeholder="SELECT * FRO... TEAM" />
-                <marker date="1458867609000" expanded="true" signature="258:296" placeholder="SELECT * FRO... TEAM" />
-                <marker date="1458867609000" expanded="true" signature="258:297" placeholder="SELECT * FRO... TEAM" />
-                <marker date="1458867609000" expanded="true" signature="258:312" placeholder="SELECT * FRO... TEAM" />
-                <marker date="1458867609000" expanded="true" signature="258:313" placeholder="SELECT * FRO... TEAM" />
-                <marker date="1458867609000" expanded="true" signature="436:447" placeholder="..." />
-                <marker date="1458867609000" expanded="true" signature="901:943" placeholder="SELECT YEAR " />
-                <marker date="1458867609000" expanded="true" signature="901:953" placeholder="SELECT YEAR,... " />
-                <marker date="1458867609000" expanded="true" signature="901:968" placeholder="SELECT YEAR,... " />
-                <marker date="1458867609000" expanded="true" signature="901:969" placeholder="SELECT YEAR,... " />
-                <marker date="1458867609000" expanded="true" signature="901:981" placeholder="SELECT YEAR,... " />
-                <marker date="1458867609000" expanded="true" signature="901:1018" placeholder="SELECT YEAR,... " />
-                <marker date="1458867609000" expanded="true" signature="901:1031" placeholder="SELECT YEAR,... " />
-                <marker date="1458867609000" expanded="true" signature="1166:1177" placeholder="..." />
-                <marker date="1458867609000" expanded="true" signature="1202:1292" placeholder="..." />
-                <marker date="1458867609000" expanded="true" signature="1366:1398" placeholder="..." />
-                <marker date="1458867609000" expanded="true" signature="1370:1398" placeholder="..." />
-                <marker date="1458867609000" expanded="true" signature="1416:1444" placeholder="..." />
-                <marker date="1458867609000" expanded="true" signature="1469:1495" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1105:1267" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1127:1267" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1445:2198" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1496:2132" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1530:2125" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1539:1699" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1544:1690" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1707:2112" placeholder="..." />
+                <marker date="1458870381000" expanded="true" signature="1712:2103" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="players.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/players.php">
+      <file leaf-file-name="games.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/games.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="176">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <marker date="1458861957000" expanded="true" signature="648:678" placeholder="SELECT * FRO... GAME" />
+                <marker date="1458861957000" expanded="true" signature="648:683" placeholder="SELECT * FRO... GAME" />
+                <marker date="1458861957000" expanded="true" signature="648:685" placeholder="SELECT * FRO... GAME" />
+                <marker date="1458861957000" expanded="true" signature="791:827" placeholder="DELETE FROM " />
+                <marker date="1458861957000" expanded="true" signature="1014:1025" placeholder="..." />
+                <marker date="1458861957000" expanded="true" signature="1800:1937" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,13 +135,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/games.php" />
         <option value="$PROJECT_DIR$/views/coach.php" />
         <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/views/coaches.php" />
         <option value="$PROJECT_DIR$/views/season.php" />
         <option value="$PROJECT_DIR$/views/teams.php" />
         <option value="$PROJECT_DIR$/views/teamPage.php" />
+        <option value="$PROJECT_DIR$/createTables.php" />
+        <option value="$PROJECT_DIR$/data/player.php" />
+        <option value="$PROJECT_DIR$/views/games.php" />
         <option value="$PROJECT_DIR$/views/players.php" />
       </list>
     </option>
@@ -293,7 +291,7 @@
       <updated>1458755013229</updated>
       <workItem from="1458755014328" duration="7275000" />
       <workItem from="1458772277883" duration="59000" />
-      <workItem from="1458856772452" duration="9248000" />
+      <workItem from="1458856772452" duration="10692000" />
     </task>
     <task id="LOCAL-00001" summary="Coaches / Coach">
       <created>1458772316811</created>
@@ -309,21 +307,28 @@
       <option name="project" value="LOCAL" />
       <updated>1458862095722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UPDATE">
+      <created>1458868729041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1458868729041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16582000" />
+    <option name="totallyTimeSpent" value="18026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="680" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32740214" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32740214" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332796" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.022617124" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -503,14 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createTables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/season.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -518,34 +515,6 @@
           <folding>
             <marker date="1458861957000" expanded="true" signature="144:164" placeholder="SELECT * FRO... SEASON" />
             <marker date="1458861957000" expanded="true" signature="276:287" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ea5ebb7f/6f54a206-a5e5-4650-be23-2b6613c8d983/ORA_J7G0B.PERFORMED">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/games.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <marker date="1458861957000" expanded="true" signature="648:678" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458861957000" expanded="true" signature="648:683" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458861957000" expanded="true" signature="648:685" placeholder="SELECT * FRO... GAME" />
-            <marker date="1458861957000" expanded="true" signature="791:827" placeholder="DELETE FROM " />
-            <marker date="1458861957000" expanded="true" signature="1014:1025" placeholder="..." />
-            <marker date="1458861957000" expanded="true" signature="1800:1937" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -620,6 +589,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/ea5ebb7f/6f54a206-a5e5-4650-be23-2b6613c8d983/ORA_J7G0B.PERFORMED">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/ea5ebb7f/6f54a206-a5e5-4650-be23-2b6613c8d983/ORA_J7G0B.PLAYER">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -633,12 +615,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/player.php">
+    <entry file="file://$PROJECT_DIR$/createTables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <marker date="1458772325000" expanded="true" signature="197:217" placeholder="SELECT * FRO... player" />
+            <marker date="1458869136000" expanded="true" signature="276:321" placeholder="drop table P... " />
+            <marker date="1458869136000" expanded="true" signature="329:465" placeholder="create table... PostalCodeLocn" />
+            <marker date="1458869136000" expanded="true" signature="473:537" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="545:609" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="617:676" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="684:748" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="756:814" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="822:884" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="892:956" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="964:1028" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="1036:1100" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="1108:1172" placeholder="INSERT INTO PostalCodeLocn... " />
+            <marker date="1458869136000" expanded="true" signature="1182:1220" placeholder="drop table A... " />
+            <marker date="1458869136000" expanded="true" signature="1228:1436" placeholder="create table... Address" />
+            <marker date="1458869136000" expanded="true" signature="1445:1502" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="1510:1564" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="1572:1633" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="1641:1702" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="1710:1764" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="1772:1835" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="1843:1900" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="1908:1968" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="1976:2036" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="2044:2105" placeholder="INSERT INTO Address... " />
+            <marker date="1458869136000" expanded="true" signature="2115:2152" placeholder="drop table P... " />
+            <marker date="1458869136000" expanded="true" signature="2160:2369" placeholder="create table... Player" />
+            <marker date="1458869136000" expanded="true" signature="2378:2445" placeholder="INSERT INTO Player... " />
+            <marker date="1458869136000" expanded="true" signature="2453:2521" placeholder="INSERT INTO Player... " />
+            <marker date="1458869136000" expanded="true" signature="2529:2598" placeholder="INSERT INTO Player... " />
+            <marker date="1458869136000" expanded="true" signature="2606:2674" placeholder="INSERT INTO Player... " />
+            <marker date="1458869136000" expanded="true" signature="2682:2750" placeholder="INSERT INTO Player... " />
+            <marker date="1458869136000" expanded="true" signature="2759:2795" placeholder="drop table C... " />
+            <marker date="1458869136000" expanded="true" signature="2803:2918" placeholder="create table... Coach" />
+            <marker date="1458869136000" expanded="true" signature="2927:2972" placeholder="INSERT INTO Coach... " />
+            <marker date="1458869136000" expanded="true" signature="2980:3025" placeholder="INSERT INTO Coach... " />
+            <marker date="1458869136000" expanded="true" signature="3033:3080" placeholder="INSERT INTO Coach... " />
+            <marker date="1458869136000" expanded="true" signature="3088:3133" placeholder="INSERT INTO Coach... " />
+            <marker date="1458869136000" expanded="true" signature="3141:3190" placeholder="INSERT INTO Coach... " />
+            <marker date="1458869136000" expanded="true" signature="3200:3240" placeholder="drop table S... " />
+            <marker date="1458869136000" expanded="true" signature="3248:3513" placeholder="create table... Spectator" />
+            <marker date="1458869136000" expanded="true" signature="3522:3609" placeholder="INSERT INTO Spectator... " />
+            <marker date="1458869136000" expanded="true" signature="3617:3697" placeholder="INSERT INTO Spectator... " />
+            <marker date="1458869136000" expanded="true" signature="3705:3787" placeholder="INSERT INTO Spectator... " />
+            <marker date="1458869136000" expanded="true" signature="3795:3881" placeholder="INSERT INTO Spectator... " />
+            <marker date="1458869136000" expanded="true" signature="3889:3971" placeholder="INSERT INTO Spectator... " />
+            <marker date="1458869136000" expanded="true" signature="3980:4017" placeholder="drop table S... " />
+            <marker date="1458869136000" expanded="true" signature="4025:4131" placeholder="create table... Season" />
+            <marker date="1458869136000" expanded="true" signature="4140:4258" placeholder="Insert INTO Season... " />
+            <marker date="1458869136000" expanded="true" signature="4266:4384" placeholder="Insert INTO Season... " />
+            <marker date="1458869136000" expanded="true" signature="4392:4510" placeholder="Insert INTO Season... " />
+            <marker date="1458869136000" expanded="true" signature="4518:4636" placeholder="Insert INTO Season... " />
+            <marker date="1458869136000" expanded="true" signature="4644:4763" placeholder="Insert INTO Season... " />
+            <marker date="1458869136000" expanded="true" signature="4772:4808" placeholder="drop table A... " />
+            <marker date="1458869136000" expanded="true" signature="4816:5047" placeholder="create table... Arena" />
+            <marker date="1458869136000" expanded="true" signature="5057:5129" placeholder="INSERT INTO Arena... " />
+            <marker date="1458869136000" expanded="true" signature="5137:5203" placeholder="INSERT INTO Arena... " />
+            <marker date="1458869136000" expanded="true" signature="5211:5289" placeholder="INSERT INTO Arena... " />
+            <marker date="1458869136000" expanded="true" signature="5297:5384" placeholder="INSERT INTO Arena... " />
+            <marker date="1458869136000" expanded="true" signature="5392:5466" placeholder="INSERT INTO Arena... " />
+            <marker date="1458869136000" expanded="true" signature="5476:5511" placeholder="drop table T... " />
+            <marker date="1458869136000" expanded="true" signature="5519:5613" placeholder="create table... Team" />
+            <marker date="1458869136000" expanded="true" signature="5622:5692" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="5700:5772" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="5780:5848" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="5856:5930" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="5938:6001" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="6009:6080" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="6088:6155" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="6163:6229" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="6237:6308" placeholder="INSERT INTO Team... " />
+            <marker date="1458869136000" expanded="true" signature="6489:6528" placeholder="drop table P... " />
+            <marker date="1458869136000" expanded="true" signature="6536:6830" placeholder="create table... PlaysFor" />
+            <marker date="1458869136000" expanded="true" signature="6839:6992" placeholder="INSERT INTO PlaysFor... " />
+            <marker date="1458869136000" expanded="true" signature="7000:7160" placeholder="INSERT INTO PlaysFor... " />
+            <marker date="1458869136000" expanded="true" signature="7168:7314" placeholder="INSERT INTO PlaysFor... " />
+            <marker date="1458869136000" expanded="true" signature="7322:7476" placeholder="INSERT INTO PlaysFor... " />
+            <marker date="1458869136000" expanded="true" signature="7484:7626" placeholder="INSERT INTO PlaysFor... " />
+            <marker date="1458869136000" expanded="true" signature="7636:7674" placeholder="drop table C... " />
+            <marker date="1458869136000" expanded="true" signature="7682:7970" placeholder="create table... Coaches" />
+            <marker date="1458869136000" expanded="true" signature="7979:8124" placeholder="INSERT INTO Coaches... " />
+            <marker date="1458869136000" expanded="true" signature="8132:8281" placeholder="INSERT INTO Coaches... " />
+            <marker date="1458869136000" expanded="true" signature="8289:8445" placeholder="INSERT INTO Coaches... " />
+            <marker date="1458869136000" expanded="true" signature="8453:8608" placeholder="INSERT INTO Coaches... " />
+            <marker date="1458869136000" expanded="true" signature="8616:8773" placeholder="INSERT INTO Coaches... " />
+            <marker date="1458869136000" expanded="true" signature="8782:8817" placeholder="drop table G... " />
+            <marker date="1458869136000" expanded="true" signature="8825:9294" placeholder="create table... Game" />
+            <marker date="1458869136000" expanded="true" signature="9304:9457" placeholder="INSERT INTO Game... " />
+            <marker date="1458869136000" expanded="true" signature="9465:9620" placeholder="INSERT INTO Game... " />
+            <marker date="1458869136000" expanded="true" signature="9628:9772" placeholder="INSERT INTO Game... " />
+            <marker date="1458869136000" expanded="true" signature="9780:9919" placeholder="INSERT INTO Game... " />
+            <marker date="1458869136000" expanded="true" signature="9927:10074" placeholder="INSERT INTO Game... " />
+            <marker date="1458869136000" expanded="true" signature="10083:10123" placeholder="drop table P... " />
+            <marker date="1458869136000" expanded="true" signature="10131:10462" placeholder="create table... Performed" />
+            <marker date="1458869136000" expanded="true" signature="10471:10527" placeholder="INSERT INTO Performed... " />
+            <marker date="1458869136000" expanded="true" signature="10535:10591" placeholder="INSERT INTO Performed... " />
+            <marker date="1458869136000" expanded="true" signature="10599:10655" placeholder="INSERT INTO Performed... " />
+            <marker date="1458869136000" expanded="true" signature="10663:10719" placeholder="INSERT INTO Performed... " />
+            <marker date="1458869136000" expanded="true" signature="10727:10783" placeholder="INSERT INTO Performed... " />
+            <marker date="1458869136000" expanded="true" signature="10792:10830" placeholder="drop table W... " />
+            <marker date="1458869136000" expanded="true" signature="10838:11039" placeholder="create table... Watches" />
+            <marker date="1458869136000" expanded="true" signature="11048:11081" placeholder="INSERT into Watches... " />
+            <marker date="1458869136000" expanded="true" signature="11089:11122" placeholder="INSERT into Watches... " />
+            <marker date="1458869136000" expanded="true" signature="11130:11163" placeholder="INSERT into Watches... " />
+            <marker date="1458869136000" expanded="true" signature="11171:11204" placeholder="INSERT into Watches... " />
+            <marker date="1458869136000" expanded="true" signature="11212:11245" placeholder="INSERT into Watches... " />
           </folding>
         </state>
       </provider>
@@ -671,11 +757,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <marker date="1458869726000" expanded="true" signature="274:294" placeholder="SELECT * FRO... player" />
+            <marker date="1458869726000" expanded="true" signature="443:481" placeholder="SELECT * FRO... player" />
+            <marker date="1458869726000" expanded="true" signature="792:981" placeholder="SELECT g.YEA... PLAYER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/games.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1458861957000" expanded="true" signature="648:678" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="648:683" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="648:685" placeholder="SELECT * FRO... GAME" />
+            <marker date="1458861957000" expanded="true" signature="791:827" placeholder="DELETE FROM " />
+            <marker date="1458861957000" expanded="true" signature="1014:1025" placeholder="..." />
+            <marker date="1458861957000" expanded="true" signature="1800:1937" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/players.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="206">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+          <folding>
+            <marker date="1458870381000" expanded="true" signature="1105:1267" placeholder="..." />
+            <marker date="1458870381000" expanded="true" signature="1127:1267" placeholder="..." />
+            <marker date="1458870381000" expanded="true" signature="1445:2198" placeholder="..." />
+            <marker date="1458870381000" expanded="true" signature="1496:2132" placeholder="..." />
+            <marker date="1458870381000" expanded="true" signature="1530:2125" placeholder="..." />
+            <marker date="1458870381000" expanded="true" signature="1539:1699" placeholder="..." />
+            <marker date="1458870381000" expanded="true" signature="1544:1690" placeholder="..." />
+            <marker date="1458870381000" expanded="true" signature="1707:2112" placeholder="..." />
+            <marker date="1458870381000" expanded="true" signature="1712:2103" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

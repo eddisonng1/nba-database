@@ -16,6 +16,7 @@ require 'index.php';
         <th> Fname </th>
         <th> Lname </th>
         <th> Position </th>
+        <th> Update </th>
     </tr>
             </thead>
             <tbody>
@@ -37,15 +38,54 @@ while ($row = oci_fetch_array($stid)){
     echo "<td>" . htmlentities($row['NUMBERONBACK']) . "</td>";
     echo "<td>" . htmlentities($row['FNAME']) . "</td>";
     echo "<td>" . htmlentities($row['LNAME']) . "</td>";
-    echo "<td>" . htmlentities($row['POSITION']) . "</td></tr>";
+    echo "<td>" . htmlentities($row['POSITION']) . "</td>";
+    echo "<td><form method=\"post\">
+                    <button class='btn btn-warning' name=\"update\" type=\"submit\" value=\"".$row['PLAYERID']."\" />Update</button></form>";
+    echo "</td></tr>";
 
  }
 
 oci_free_statement($stid);
 ?>
-
             </tbody>
             </table>
+
+        <?php
+
+        if(isset($_POST['update'])){
+            echo "<h2>Update Player</h2>
+<div class=\"table-responsive\">
+<table class='table table-hover' >
+<thead>
+<tr>
+    <td>Height</td>
+    <td>Weight</td>
+    <td>Number</td>
+    <td>FName</td>
+    <td>LName</td>
+    <td>Position</td>
+    <td>Update</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td><input class='form-control' type='text'></td>
+    <td><input class='form-control' type='text'></td>
+    <td><input class='form-control' type='text'></td>
+    <td><input class='form-control' type='text'></td>
+    <td><input class='form-control' type='text'></td>
+    <td><input class='form-control' type='text'></td>
+    <td><button class='btn btn-success'>Update</button></td>
+</tr>
+</tbody>    
+</table>
+</div>
+
+";
+
+        }
+
+        ?>
         </div>
 </body>
 </html>
